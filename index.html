@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo-list javascript tutorial || @azizbekDulobov</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="header d-flex justify-content-end px-3 pt-2">
+    <button id="night" class="btn btn-link">
+      <lord-icon src="https://cdn.lordicon.com/atcauaaj.json" trigger="hover" colors="primary:#242424,secondary:#30e849"
+        style="width: 35px; height: 35px">
+      </lord-icon>
+    </button>
+    <button id="light" class="btn btn-link">
+      <lord-icon src="https://cdn.lordicon.com/mxslsifl.json" trigger="hover" colors="primary:#ffffff,secondary:yellow"
+        style="width:35px;height:35px">
+      </lord-icon>
+    </button>
+  </div>
+  <div class="container mt-2 w-75 w-md-100">
+    <h1 class="text-warning">Todo-list</h1>
+    <form class="d-flex form gap-2">
+      <input type="text" class="form-control fs-3 " />
+      <button type="submit" class="submit btn btn-outline-success px-5 fs-3">
+        Submit
+      </button>
+    </form>
+    <ul class="list list-unstyled mt-3 d-flex flex-column gap-3 overflow-auto pro-scrollbar" style="height: 65vh;">
+    </ul>
+  </div>
+
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
