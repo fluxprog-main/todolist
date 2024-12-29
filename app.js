@@ -92,7 +92,7 @@ function applyTheme(mode) {
   if (mode === "night") {
     light.style.display = "block";
     night.style.display = "none";
-    document.querySelector("body").style.background = "#140131";
+    document.querySelector("body").style.background = "#212121";
     document.querySelector("body").style.color = "white";
   } else {
     night.style.display = "block";
